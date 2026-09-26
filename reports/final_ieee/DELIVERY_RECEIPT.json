@@ -1,0 +1,47 @@
+{
+  "candidate": "E003",
+  "finalized_on": "2026-09-17",
+  "document_status": "complete; final content, public release, and organizer form transmitted",
+  "editable_source_archive": {
+    "path": "tartan_imu/output/pdf/TartanIMU_E003_IEEE_Source_FINAL.zip",
+    "sha256": "926f34d38e62c98587cfff2328d6e521acda0795c37817772cc1ba3ff354c8ac",
+    "zip_integrity": "passed"
+  },
+  "frozen_inference": {
+    "maximum_resident_set_bytes": 723648512,
+    "offline": true,
+    "output_byte_identical": true,
+    "wall_clock_seconds": 117.42
+  },
+  "official_score": {
+    "ate20_m": 1.37483,
+    "ave_mps": 0.43938,
+    "rte_5s_m": 1.79401,
+    "score": 0.53485,
+    "submission_md5": "f571673079b05623e658a14410ef0063"
+  },
+  "pdf": {
+    "bytes": 168734,
+    "fonts": "embedded Type 1",
+    "page_size": "US Letter",
+    "pages": 5,
+    "path": "tartan_imu/output/pdf/TartanIMU_E003_Technical_Report_FINAL.pdf",
+    "sha256": "ae0607c7995e48f1f77ae93ec64336dab195eff0e3dae49ad72ff048c3ed020c",
+    "visual_qa": "passed"
+  },
+  "remaining_placeholders": [],
+  "publication": {
+    "hugging_face_repository": "https://huggingface.co/duj626/tartanimu-e003",
+    "repository_visibility": "public",
+    "repository_commit": "3c5677e82c7a2d5f05d96f1c5c163e0936d2f0e8",
+    "repository_file_status": "published; remote release verified against local SHA-256"
+  },
+  "remaining_external_actions": [],
+  "submission": {
+    "form_confirmation": "我们已收到您的回答",
+    "form_submitted_at": "2026-09-17 09:10 CST",
+    "kaggle_id": "56117057",
+    "public_score": 0.63142,
+    "team": "Jiayi Du"
+  }
+}

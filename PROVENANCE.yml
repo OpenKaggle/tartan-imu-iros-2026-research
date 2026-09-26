@@ -1,0 +1,45 @@
+schema_version: 1
+repository:
+  name: tartan-imu-research
+  url: https://github.com/openkaggle/tartan-imu-research
+snapshot:
+  kind: public-post-deadline-archive
+  status: archived_after_deadline
+  status_note: >-
+    Archived campaign research and release documentation retained after the
+    documented competition and report deadlines.
+  rules_checked_at: null
+  rules_check_note: >-
+    The root README records deadlines and a rules-page discrepancy but does not
+    give a rules-check timestamp.
+competitions:
+  - name: TartanIMU Challenge IROS 2026
+    url: https://www.kaggle.com/competitions/tartan-imu-challenge-iros2026
+included:
+  - original audit, feature, training, scoring, and validation source
+  - release protocol and model documentation
+  - campaign reports and lightweight official receipts
+excluded:
+  - raw and extracted competition data
+  - model weights, checkpoints, and regressors
+  - generated submissions and immutable candidate CSV payloads
+  - caches, environments, and large output bundles
+licensing:
+  original_work: MIT
+  boundary: >-
+    MIT covers only original OpenKaggle code and documentation for which
+    contributors hold rights.
+  third_party: >-
+    Competition data, official code, model checkpoints, vendor source,
+    notebooks, and separately licensed files retain their own terms.
+reproduction:
+  guide: REPRODUCIBILITY.md
+  documented_entry_points:
+    - release/REPRODUCE.md
+    - release/README.md
+    - release/src/predict_frozen.py
+    - src/validate_submission.py
+claims:
+  archive_status: post_deadline
+  payload_complete: false
+  score_claim_added_by_release_docs: false

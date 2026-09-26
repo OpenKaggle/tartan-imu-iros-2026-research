@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: >-
+  If this archive supports your work, cite it as software and review NOTICE.md
+  for competition and third-party licensing boundaries.
+title: TartanIMU IROS 2026 Post-Deadline Research Archive
+type: software
+authors:
+  - name: OpenKaggle contributors
+repository-code: https://github.com/openkaggle/tartan-imu-research
+license: MIT
+abstract: >-
+  Post-deadline public archive of TartanIMU research source, protocol, release
+  documentation, reports, and lightweight receipts.
