@@ -51,7 +51,7 @@ Please cite the repository snapshot and the immutable commit or tag you used.
 
 ```bibtex
 @software{openkaggle_tartan_imu_iros_2026,
-  author = {OpenKaggle contributors},
+  author = {Jah-yee},
   title = {TartanIMU IROS 2026 Post-Deadline Research Archive},
   year = {2026},
   url = {https://github.com/OpenKaggle/tartan-imu-iros-2026-research},
