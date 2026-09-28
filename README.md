@@ -45,6 +45,20 @@ stricter dates above. This campaign uses the strictest published deadline.
 - `reports/`: campaign status, validation summaries, and error analyses.
 - `src/`: reproducible audit, feature, training, scoring, and validation code.
 
+## Cite this repository
+
+Please cite the repository snapshot and the immutable commit or tag you used.
+
+```bibtex
+@software{openkaggle_tartan_imu_iros_2026,
+  author = {OpenKaggle contributors},
+  title = {TartanIMU IROS 2026 Post-Deadline Research Archive},
+  year = {2026},
+  url = {https://github.com/OpenKaggle/tartan-imu-iros-2026-research},
+  version = {snapshot-2026-09}
+}
+```
+
 ## First baseline
 
 The first honest model is a single CatBoost multi-output regressor over
